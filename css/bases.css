@@ -127,9 +127,12 @@ body {
   justify-content: space-evenly;
   margin-bottom: 1rem;
 }
-.sobre-nosotros {
+.sobre-nosotros__texto--division {
   color: var(--fuente-ceniza-oscuro);
   font-weight: 700;
+}
+.sobre_nosotros__imagen {
+  display: none;
 }
 .planes {
   background-color: var(--background-ceniza-claro);
@@ -307,7 +310,7 @@ body {
     padding-right: calc((100% - 940px) / 2);
   }
   .diferenciales {
-    background-color: var(--cinza-claro);
+    background-color: var(--background-ceniza-claro);
   }
   .diferenciales__lista {
     justify-content: space-around;
@@ -319,6 +322,29 @@ body {
     justify-content: space-between;
     text-align: left;
   }
+  .sobre-nosotros {
+    display: flex;
+  }
+  .sobre-nosotros__contenido {
+    margin-left: 3rem;
+  } 
+  .sobre_nosotros__titulo {
+    text-align: left;
+  }
+  .sobre-nosotros__texto--division {
+    border-bottom:  1px solid var(--background-ceniza-claro);
+    padding-bottom: 1.5rem;
+  }
+  .sobre_nosotros__imagen {
+    display: block;
+  }
+
+  .institucional__video {
+    align-self: flex-end;
+
+    width: 375px;
+  }
+
   .institucional__contacto-email {
     display: block;
   }

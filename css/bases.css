@@ -301,3 +301,35 @@ body {
   display: inline-block;
   margin: 0 0.5rem 0.7rem;
 }
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+  .diferenciales {
+    background-color: var(--cinza-claro);
+  }
+  .diferenciales__lista {
+    justify-content: space-around;
+  }
+  /* Diferenciales  */
+  .institucional__contenido {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .institucional__contacto-email {
+    display: block;
+  }
+  /* footer  */
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer__navegacion {
+    text-align: left;
+    min-width: 600px;
+  }
+}
